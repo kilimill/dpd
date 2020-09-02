@@ -31,6 +31,7 @@ body {
   height: 100%;
   position: relative;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 h1, h2, h3,
@@ -748,7 +749,6 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
 }
 
 .detalis__bg-1 {
@@ -1493,6 +1493,9 @@ button {
   .chart-bg {
     top: -13%;
     width: 362px;
+  }
+  .tasks {
+    margin-top: 120px;
   }
 }
 
