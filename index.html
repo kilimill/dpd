@@ -4,101 +4,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>dpd</title>
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-  <div class="page-section page-section__top">
-    <header class="header">
-      <div class="header__inner">
-        <div class="header__left">
-          <div class="header__logo">
-            <a href="#">
-              <img src="images/logo-header.png" alt="">
-            </a>
-            <img class="header__chart" src="images/chart-header.png" alt="">
+  <section class="first-screen">
+    <div class="page-section page-section__top">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__left">
+            <div class="header__logo">
+              <a href="#">
+                <img src="images/logo-header.png" alt="">
+              </a>
+              <img class="header__chart" src="images/chart-header.png" alt="">
+            </div>
+            <nav class="header__menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="#">
+                    Ценности
+                  </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#">
+                    Правила проекта
+                  </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#">
+                    Задания
+                  </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#">
+                    Чарт
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <nav class="header__menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a href="#">
-                  Ценности
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#">
-                  Правила проекта
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#">
-                  Задания
-                </a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#">
-                  Чарт
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div class="header__right">
+            <a class="header__link log-in" href="#">Вход</a>
+            <a class="header__link check-in" href="#">Регистрация</a>
+          </div>
         </div>
-        <div class="header__right">
-          <a class="header__link log-in" href="#">Вход</a>
-          <a class="header__link check-in" href="#">Регистрация</a>
-        </div>
-      </div>
-    </header>
+      </header>
 
-    <section class="top">
-      <div class="container">
-        <div class="top__text">
-          <h4 class="top__text-subtext">
-            Достигай <span>цели</span>
-          </h4>
-          <h4 class="top__text-subtext">
-            Общайся <span>открыто</span>
-          </h4>
-          <h4 class="top__text-subtext">
-            Работай <br> <span> на команду</span>
-          </h4>
-          <h4 class="top__text-subtext">
-            Развивайся <span>и улучшай</span>
-          </h4>
-          <h4 class="top__text-subtext subtext-blv">
-            Верь <span>в себя</span>
-          </h4>
+      <section class="top">
+        <div class="container">
+          <div class="top__text-inner">
+            <div class="top__text">
+              <h4 class="top__text-subtext">
+                Достигай <span>цели</span>
+              </h4>
+              <h4 class="top__text-subtext">
+                Общайся <span>открыто</span>
+              </h4>
+              <h4 class="top__text-subtext">
+                Работай <br> <span> на команду</span>
+              </h4>
+              <h4 class="top__text-subtext">
+                Развивайся <span>и улучшай</span>
+              </h4>
+              <h4 class="top__text-subtext subtext-blv">
+                Верь <span>в себя</span>
+              </h4>
+            </div>
+            <img class="top__dots" src="images/top-dots.png" alt="">
+          </div>
+          <h1 class="top__title">
+            <span>Поддержи</span> <br> наши ценности
+          </h1>
+          <div class="top__links">
+            <a class="top__btn" href="#">
+              Подробнее о ценностях
+            </a>
+            <a class="participant" href="#">
+              <span>Я участвую!</span>
+            </a>
+          </div>
         </div>
-        <h1 class="top__title">
-          <span>Поддержи</span> <br> наши ценности
-        </h1>
-        <div class="top__links">
-          <a class="top__btn" href="#">
-            Подробнее о ценностях
-          </a>
-          <a class="participant" href="#">
-            <span>Я участвую!</span>
-          </a>
-        </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
+    <div class="line-top"></div>
+  </section>
 
   <section class="about">
     <div class="container">
 
       <div class="about__top">
-        
+        <div class="new-work">
+          <p>
+            Новое задание
+          </p>
+        </div>
         <div class="about__wrapper">
+
           <div class="about__slider">
-            <!-- <div class="ttt">
-              <p>
-                Новое задание
-              </p>
-            </div> -->
             <div class="slider__data">
               <div class="slider__data-num">18</div>
               <div class="slider__data-year">
@@ -212,7 +218,8 @@
               Болей за своих, выполняй задания <br> на онлайн-платформе и добавляй баллы к своему региону!
             </p>
             <p class="details__text">
-              Голосуй, ставь лайки и комментируй. <br> Получай призы и подарки! <br> Участвуй во всех этапах и стань амбассадором
+              Голосуй, ставь лайки и комментируй. <br> Получай призы и подарки! <br> Участвуй во всех этапах и стань
+              амбассадором
               ценностей dpd!
             </p>
             <a class="details__link" href="#">
@@ -258,9 +265,1216 @@
         </div>
       </div>
     </div>
-
-
   </section>
+
+  <section class="tasks">
+    <img class="tasks-bg" src="images/tasks-bg.png" alt="">
+    <div class="container">
+      <h3 class="tasks__title">
+        Задания
+      </h3>
+      <div class="wrapper">
+        <div class="tabs">
+          <span class="tab active" data-id="1">
+            <div class="nav-tab nav-tab-1">
+              1 <span>неделя</span>
+            </div>
+          </span>
+
+          <span class="tab" data-id="2">
+            <div class="nav-tab nav-tab-2">
+              2 <span>неделя</span>
+            </div>
+          </span>
+
+          <span class="tab" data-id="3">
+            <div class="nav-tab nav-tab-3">
+              3 <span>неделя</span>
+            </div>
+          </span>
+
+          <span class="tab" data-id="4">
+            <div class="nav-tab nav-tab-3">
+              4 <span>неделя</span>
+            </div>
+          </span>
+
+          <span class="tab" data-id="5">
+            <div class="nav-tab nav-tab-3">
+              5 <span>неделя</span>
+            </div>
+          </span>
+
+        </div>
+        <div class="tab_content">
+          <div class="tab-item active-tab" id="1">
+            <div class="slider__inner">
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">16</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: Провести видеоконференцию в zoom с членами команды –пообщаться и узнать друг друга получше.
+                  Сделать скриншот и
+                  прислать организаторам. Задание выполнено, если на скриншоте zoomприсутствуют все члены команды.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="tab-item" id="2">
+            <div class="slider__inner">
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">16</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: Провести видеоконференцию в zoom с членами команды –пообщаться и узнать друг друга получше.
+                  Сделать
+                  скриншот и
+                  прислать организаторам. Задание выполнено, если на скриншоте zoomприсутствуют все члены команды.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="tab-item" id="3">
+            <div class="slider__inner">
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">16</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: Провести видеоконференцию в zoom с членами команды –пообщаться и узнать друг друга получше.
+                  Сделать
+                  скриншот и
+                  прислать организаторам. Задание выполнено, если на скриншоте zoomприсутствуют все члены команды.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="tab-item" id="4">
+            <div class="slider__inner">
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">16</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: Провести видеоконференцию в zoom с членами команды –пообщаться и узнать друг друга получше.
+                  Сделать
+                  скриншот и
+                  прислать организаторам. Задание выполнено, если на скриншоте zoomприсутствуют все члены команды.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="tab-item" id="5">
+            <div class="slider__inner">
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">16</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: Провести видеоконференцию в zoom с членами команды –пообщаться и узнать друг друга получше.
+                  Сделать
+                  скриншот и
+                  прислать организаторам. Задание выполнено, если на скриншоте zoomприсутствуют все члены команды.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+              <div class="about__slider tab__slider-item">
+                <div class="slider__data">
+                  <div class="slider__data-num">18</div>
+                  <div class="slider__data-year">
+                    <div class="slider__data-month">
+                      августа
+                    </div>
+                    <span>2020</span>
+                  </div>
+                </div>
+                <h2 class="slider__title">
+                  Общайся открыто!
+                </h2>
+                <p class="slider__text">
+                  Задача: скинуть в чат свою смешную детскую фотографию и рассказать о случае из детства, который
+                  запомнился
+                  на всю жизнь.
+                  Это может быть важное событие, теплое воспоминание, или смешная история.
+                </p>
+                <a class="slider__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="comments">
+    <div class="container">
+      <h4 class="comments__title">
+        Живая лента
+      </h4>
+      <div class="comments__inner">
+
+        <div class="comments__item comments__item-fixed">
+          <div class="comments__item-inner">
+            <div class="comments__info">
+              <div class="user__photo">
+                <img class="user__fake" src="images/comments-romb.png" alt="">
+                <a href="#">
+                  <img class="user" src="images/user-com-1.png" alt="">
+                </a>
+              </div>
+              <div class="comments__item-box">
+                <a class="user__name" href="#">
+                  Константинова Анастасия
+                </a>
+                <div class="comments__data">
+                  20 августа 12:43
+                </div>
+                <div class="comments__geo">
+                  Северо-Западный регион
+                </div>
+                <p class="comments__text">
+                  Я выполнила задание, и станцевала красивый танец, смотрите! Ну и лайкать не забывайте! <br> Если
+                  кому-то
+                  не нравится, то
+                  попробуйте сами! Я первый раз такое видео записываю!))
+                </p>
+                <div class="comments__link">
+                  <a class="link-num link-like" href="#"> <span>25</span></a>
+                  <a class="link-num link-com" href="#"><span>0</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="comments__photo">
+              <a href="#">
+                <img src="images/comment-1.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments__item">
+          <div class="comments__item-inner">
+            <div class="comments__info">
+              <div class="user__photo">
+                <img class="user__fake" src="images/comments-romb.png" alt="">
+                <a href="#">
+                  <img class="user" src="images/user-com-2.png" alt="">
+                </a>
+              </div>
+              <div class="comments__item-box">
+                <a class="user__name" href="#">
+                  Великодный Павел
+                </a>
+                <div class="comments__data">
+                  22 июля 10:12
+                </div>
+                <div class="comments__geo">
+                  Центральный регион
+                </div>
+                <div class="comments__text">
+                  Я нарисовал несколько картин, так что я думаю наша команда победит!
+                </div>
+                <div class="comments__link">
+                  <a class="link-num link-like" href="#"> <span>10</span></a>
+                  <a class="link-num link-com" href="#"><span>10</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="comments__photo">
+              <a href="#">
+                <img src="images/comment-4.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments__item">
+          <div class="comments__item-inner">
+            <div class="comments__info">
+              <div class="user__photo">
+                <img class="user__fake" src="images/comments-romb.png" alt="">
+                <a href="#">
+                  <img class="user" src="images/user-com.png" alt="">
+                </a>
+              </div>
+              <div class="comments__item-box">
+                <a class="user__name" href="#">
+                  Василий Петров
+                </a>
+                <div class="comments__data">
+                  20 июля 12:43
+                </div>
+                <div class="comments__geo">
+                  Северо-Западный регион
+                </div>
+                <div class="comments__text">
+                  Я ничего не нарисовал и не станцевал, но я вам сочинил стишок интересный. <br> Белеет парус одинокой
+                  <br> В тумане
+                  моря голубом!.. <br>
+                  Что ищет он в стране далекой? Что кинул он в краю родном?...
+                </div>
+                <div class="comments__link">
+                  <a class="link-num link-like" href="#"> <span>18</span></a>
+                  <a class="link-num link-com" href="#"><span>2</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="comments__photo">
+              <a href="#">
+                <img src="" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="comments__for-user">
+            <div class="comments__info">
+              <div class="user__photo">
+                <img class="user__fake" src="images/comments-romb.png" alt="">
+                <a href="#">
+                  <img class="user" src="images/user-com-4.png" alt="">
+                </a>
+              </div>
+              <div class="comments__item-box">
+                <a class="user__name" href="#">
+                  Зверева Татьяна
+                </a>
+                <div class="comments__text">
+                  Отличный стих! Да ты талант!!!
+                </div>
+                <div class="comments__link">
+                  <a class="link-num link-like" href="#"> <span>2</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="comments__info">
+              <div class="user__photo">
+                <img class="user__fake" src="images/comments-romb.png" alt="">
+                <a href="#">
+                  <img class="user" src="images/user-com-5.png" alt="">
+                </a>
+              </div>
+              <div class="comments__item-box">
+                <a class="user__name" href="#">
+                  Иванова Саша
+                </a>
+                <div class="comments__text">
+                  А мне кажется я где-то это уже слышала, только не могу вспомнить где
+                </div>
+                <div class="comments__link">
+                  <a class="link-num link-like" href="#"> <span>18</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments__item">
+          <div class="comments__item-inner">
+            <div class="comments__info">
+              <div class="user__photo">
+                <img class="user__fake" src="images/comments-romb.png" alt="">
+                <a href="#">
+                  <img class="user" src="images/user-com-6.png" alt="">
+                </a>
+              </div>
+              <div class="comments__item-box">
+                <a class="user__name" href="#">
+                  Марк Твенов
+                </a>
+                <div class="comments__data">
+                  22 июля 10:12
+                </div>
+                <div class="comments__geo">
+                  Центральный регион
+                </div>
+                <div class="comments__text">
+                  Я перевел бабушку через дорогу, вот фотодоказательство
+                </div>
+                <div class="comments__link">
+                  <a class="link-num link-like" href="#"> <span>20</span></a>
+                  <a class="link-num link-com" href="#"><span>1</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="comments__photo">
+              <a href="#">
+                <img src="images/comment-3.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments__item">
+          <div class="comments__item-inner">
+            <div class="comments__info">
+              <div class="user__photo">
+                <img class="user__fake" src="images/comments-romb.png" alt="">
+                <a href="#">
+                  <img class="user" src="images/user-com-7.png" alt="">
+                </a>
+              </div>
+              <div class="comments__item-box">
+                <a class="user__name" href="#">
+                  Станислав Киренский
+                </a>
+                <div class="comments__data">
+                  22 июля 10:12
+                </div>
+                <div class="comments__geo">
+                  Центральный регион
+                </div>
+                <div class="comments__text">
+                  Я нарисовал несколько картин, так что я думаю наша команда победит!
+                </div>
+                <div class="comments__link">
+                  <a class="link-num link-like" href="#"> <span>10</span></a>
+                  <a class="link-num link-com" href="#"><span>10</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="comments__photo">
+              <a href="#">
+                <img src="images/comment-4.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments__link-more">
+          <a class="comments__more" href="#">
+            Показать ещё
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="chart">
+    <img class="chart-bg" src="images/chart-bg.png" alt="">
+    <div class="container">
+      <h4 class="chart__title">
+        DPD Чарт
+      </h4>
+      <ul class="tabs-links">
+        <li class="tabs-links__list tabs-links__list--active">
+          <div class="tabs-links__list-item">Регионы</div>
+        </li>
+        <li class="tabs-links__list">
+          <div class="tabs-links__list-item">Команды</div>
+        </li>
+      </ul>
+      <ul class="tabs-content">
+        <li>
+          <div class="chart__inner">
+            <div class="chart__lines">
+              <div class="chart__line">
+                <div class="chart__line-num">
+                  1 386
+                </div>
+                <div class="chart__line-item" style="height:286px;"></div>
+                <div class="chart__line-geo">
+                  Южный регион
+                </div>
+              </div>
+              <div class="chart__line">
+                <div class="chart__line-num">
+                  1 319
+                </div>
+                <div class="chart__line-item" style="height:267px;"></div>
+                <div class="chart__line-geo">
+                  Москва
+                </div>
+              </div>
+              <div class="chart__line">
+                <div class="chart__line-num">
+                  790
+                </div>
+                <div class="chart__line-item" style="height:222px;"></div>
+                <div class="chart__line-geo">
+                  Северо- Западный регион
+                </div>
+              </div>
+              <div class="chart__line">
+                <div class="chart__line-num">
+                  738
+                </div>
+                <div class="chart__line-item" style="height:200px;"></div>
+                <div class="chart__line-geo">
+                  Центральный регион
+                </div>
+              </div>
+              <div class="chart__line">
+                <div class="chart__line-num">
+                  454
+                </div>
+                <div class="chart__line-item" style="height:130px;"></div>
+                <div class="chart__line-geo">
+                  Сибирский регион
+                </div>
+              </div>
+              <div class="chart__line">
+                <div class="chart__line-num">
+                  370
+                </div>
+                <div class="chart__line-item" style="height:98px;"></div>
+                <div class="chart__line-geo">
+                  Поволжский регион
+                </div>
+              </div>
+              <div class="chart__line">
+                <div class="chart__line-num">
+                  280
+                </div>
+                <div class="chart__line-item" style="height:69px;"></div>
+                <div class="chart__line-geo">
+                  Уральский регион
+                </div>
+              </div>
+            </div>
+            <p class="chart__profit">
+              Результаты на 17.08.2020
+            </p>
+          </div>
+        </li>
+        <li>
+
+        </li>
+      </ul>
+
+    </div>
+    <a class="all__chart-link" href="#">
+      Весь чарт
+    </a>
+  </section>
+
+  <section class="popular">
+    <div class="container">
+      <h4 class="comments__title popular__title">
+        Популярное
+      </h4>
+      <div class="popular__inner">
+
+        <div class="popular__items">
+
+          <div class="comments__item">
+            <div class="comments__item-inner">
+              <div class="comments__info">
+                <div class="user__photo">
+                  <img class="user__fake" src="images/comments-romb.png" alt="">
+                  <a href="#">
+                    <img class="user" src="images/user-com-1.png" alt="">
+                  </a>
+                </div>
+                <div class="comments__item-box">
+                  <a class="user__name" href="#">
+                    Константинова Анастасия
+                  </a>
+                  <div class="comments__data">
+                    20 августа 12:43
+                  </div>
+                  <div class="comments__geo">
+                    Северо-Западный регион
+                  </div>
+                  <p class="comments__text">
+                    Я выполнила задание, и станцевала красивый танец, смотрите! Ну и лайкать не забывайте! <br> Если
+                    кому-то
+                    не нравится, то
+                    попробуйте сами! Я первый раз такое видео записываю!))
+                  </p>
+                  <div class="comments__link">
+                    <a class="link-num link-like" href="#"> <span>25</span></a>
+                    <a class="link-num link-com" href="#"><span>0</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="comments__photo">
+                <a href="#">
+                  <img src="images/comment-1.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="comments__item">
+            <div class="comments__item-inner">
+              <div class="comments__info">
+                <div class="user__photo">
+                  <img class="user__fake" src="images/comments-romb.png" alt="">
+                  <a href="#">
+                    <img class="user" src="images/user-com-2.png" alt="">
+                  </a>
+                </div>
+                <div class="comments__item-box">
+                  <a class="user__name" href="#">
+                    Великодный Павел
+                  </a>
+                  <div class="comments__data">
+                    22 июля 10:12
+                  </div>
+                  <div class="comments__geo">
+                    Центральный регион
+                  </div>
+                  <div class="comments__text">
+                    Я нарисовал несколько картин, так что я думаю наша команда победит!
+                  </div>
+                  <div class="comments__link">
+                    <a class="link-num link-like" href="#"> <span>10</span></a>
+                    <a class="link-num link-com" href="#"><span>10</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="comments__photo">
+                <a href="#">
+                  <img src="images/comment-4.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="popular__items">
+          <div class="comments__item">
+            <div class="comments__item-inner">
+              <div class="comments__info">
+                <div class="user__photo">
+                  <img class="user__fake" src="images/comments-romb.png" alt="">
+                  <a href="#">
+                    <img class="user" src="images/user-com-1.png" alt="">
+                  </a>
+                </div>
+                <div class="comments__item-box">
+                  <a class="user__name" href="#">
+                    Константинова Анастасия
+                  </a>
+                  <div class="comments__data">
+                    20 августа 12:43
+                  </div>
+                  <div class="comments__geo">
+                    Северо-Западный регион
+                  </div>
+                  <p class="comments__text">
+                    Я выполнила задание, и станцевала красивый танец, смотрите! Ну и лайкать не забывайте! <br> Если
+                    кому-то
+                    не нравится, то
+                    попробуйте сами! Я первый раз такое видео записываю!))
+                  </p>
+                  <div class="comments__link">
+                    <a class="link-num link-like" href="#"> <span>25</span></a>
+                    <a class="link-num link-com" href="#"><span>0</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="comments__photo">
+                <a href="#">
+                  <img src="images/comment-1.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="comments__item">
+            <div class="comments__item-inner">
+              <div class="comments__info">
+                <div class="user__photo">
+                  <img class="user__fake" src="images/comments-romb.png" alt="">
+                  <a href="#">
+                    <img class="user" src="images/user-com-2.png" alt="">
+                  </a>
+                </div>
+                <div class="comments__item-box">
+                  <a class="user__name" href="#">
+                    Великодный Павел
+                  </a>
+                  <div class="comments__data">
+                    22 июля 10:12
+                  </div>
+                  <div class="comments__geo">
+                    Центральный регион
+                  </div>
+                  <div class="comments__text">
+                    Я нарисовал несколько картин, так что я думаю наша команда победит!
+                  </div>
+                  <div class="comments__link">
+                    <a class="link-num link-like" href="#"> <span>10</span></a>
+                    <a class="link-num link-com" href="#"><span>10</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="comments__photo">
+                <a href="#">
+                  <img src="images/comment-4.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="popular__items">
+
+          <div class="comments__item">
+            <div class="comments__item-inner">
+              <div class="comments__info">
+                <div class="user__photo">
+                  <img class="user__fake" src="images/comments-romb.png" alt="">
+                  <a href="#">
+                    <img class="user" src="images/user-com-1.png" alt="">
+                  </a>
+                </div>
+                <div class="comments__item-box">
+                  <a class="user__name" href="#">
+                    Константинова Анастасия
+                  </a>
+                  <div class="comments__data">
+                    20 августа 12:43
+                  </div>
+                  <div class="comments__geo">
+                    Северо-Западный регион
+                  </div>
+                  <p class="comments__text">
+                    Я выполнила задание, и станцевала красивый танец, смотрите! Ну и лайкать не забывайте! <br> Если
+                    кому-то
+                    не нравится, то
+                    попробуйте сами! Я первый раз такое видео записываю!))
+                  </p>
+                  <div class="comments__link">
+                    <a class="link-num link-like" href="#"> <span>25</span></a>
+                    <a class="link-num link-com" href="#"><span>0</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="comments__photo">
+                <a href="#">
+                  <img src="images/comment-1.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="comments__item">
+            <div class="comments__item-inner">
+              <div class="comments__info">
+                <div class="user__photo">
+                  <img class="user__fake" src="images/comments-romb.png" alt="">
+                  <a href="#">
+                    <img class="user" src="images/user-com-2.png" alt="">
+                  </a>
+                </div>
+                <div class="comments__item-box">
+                  <a class="user__name" href="#">
+                    Великодный Павел
+                  </a>
+                  <div class="comments__data">
+                    22 июля 10:12
+                  </div>
+                  <div class="comments__geo">
+                    Центральный регион
+                  </div>
+                  <div class="comments__text">
+                    Я нарисовал несколько картин, так что я думаю наша команда победит!
+                  </div>
+                  <div class="comments__link">
+                    <a class="link-num link-like" href="#"> <span>10</span></a>
+                    <a class="link-num link-com" href="#"><span>10</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="comments__photo">
+                <a href="#">
+                  <img src="images/comment-4.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-col">
+          <h5 class="footer__top-title">
+            Частным лицам
+          </h5>
+          <ul class="footer__menu">
+            <li class="footer__menu-list">
+              <a href="#">
+                Управлять доставкой
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Отправить посылку
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Пункты приема и выдачи
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Частые вопросы
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-col">
+          <h5 class="footer__top-title">
+            Юридическим лицам
+          </h5>
+          <ul class="footer__menu">
+            <li class="footer__menu-list">
+              <a href="#">
+                Решения для интернет-магазинов
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Доставка по России
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Доставка в страны таможенного союза
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Международная доставка
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Тарифы
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Опции
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                MyDPD
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Закупки
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-col">
+          <h5 class="footer__top-title">
+            DPD в России
+          </h5>
+          <ul class="footer__menu">
+            <li class="footer__menu-list">
+              <a href="#">
+                О компании
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Последние новости
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Карьера
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Лицензии
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Награды
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Партнерство
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                DPD.com
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <a href="#">
+                Горячая линия по противодействию
+                мошенничеству, хищениям и коррупции
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-col">
+          <h5 class="footer__top-title">
+            Свяжитесь с нами
+          </h5>
+          <ul class="footer__menu footer__menu-connect">
+            <li class="footer__menu-list footer__menu-social">
+              <a class="social__link" href="#">
+                <img src="images/vk.svg" alt="">
+              </a>
+              <a class="social__link" href="#">
+                <img src="images/facebook.svg" alt="">
+              </a>
+              <a class="social__link" href="#">
+                <img src="images/skype.svg" alt="">
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <span>Для юридических лиц</span>
+              <a href="tel:+78002344595">
+                +7 (800) 234 45 95
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <span>Москва</span>
+              <a href="tel:+74957754585">
+                +7 (495) 775 45 85
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <span>Санкт-Петербург</span>
+              <a href="tel:+78123257878">
+                +7 (812) 325 78 78
+              </a>
+            </li>
+            <li class="footer__menu-list">
+              <span>
+                Пн-Пт: 9:00-19:00
+                Сб: 9:30-18:00
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer__bottom">
+        <a class="footer__logo" href="#">
+          <img src="images/red-logo.png" alt="">
+        </a>
+        <div class="footer__copy">
+          Под международным брендом DPD в России работает компания АО «ДПД РУС» 107023, г. Москва, ул. Электрозаводская,
+          д. 27,
+          стр. 8, 4 этаж, помещение ХVI, комната 34 Договор и Генеральные условия • Защита данных
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
