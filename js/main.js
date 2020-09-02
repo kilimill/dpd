@@ -58,6 +58,35 @@ $(function(){
 
   });
 
+
+  $('.check-in,.log-in').magnificPopup({
+    type: 'inline',
+    midClick: true
+  });
+
+
+  $('.image-popap').magnificPopup({
+    type: 'image',
+    zoom: {
+      enabled: true,
+      duration: 300 // продолжительность анимации. Не меняйте данный параметр также и в CSS
+    }
+  });
+
+
+  $('.popup-youtube').magnificPopup({
+    type: 'iframe',
+    iframe: {
+      patterns: {
+        youtube: {
+          index: 'youtube.com/',
+          id: 'v=',
+          src: '//www.youtube.com/embed/%id%?autoplay=1&rel=0' // Урл, который берется из кода iframe
+        }
+      }
+    }
+  });
+
 });
 
 var links = document.querySelectorAll('.tabs-links li');

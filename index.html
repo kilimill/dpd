@@ -11,6 +11,9 @@
 
 <body>
 
+
+
+
   <section class="first-screen">
     <div class="page-section page-section__top">
       <header class="header">
@@ -48,10 +51,35 @@
             </nav>
           </div>
           <div class="header__right">
-            <a class="header__link log-in" href="#">Вход</a>
-            <a class="header__link check-in" href="#">Регистрация</a>
+            <a class="header__link log-in" id="log-in" href="#entry">Вход</a>
+            <a class="header__link check-in" id="check-in" href="#registr">Регистрация</a>
           </div>
         </div>
+          <div class="entrance entry" id="entry">
+            <h5 class="entrance__title">
+              Войти
+            </h5>
+            <form class="entrance__form">
+              <input class="entrance-input" type="email" placeholder="E-mail или табельный номер">
+              <input class="entrance-input entrance-input__password" type="password" placeholder="Пароль">
+              <a class="forget__link" href="#">Забыли?</a>
+              <button class="entrance__btn" type="submit">Войти</button>
+            </form>
+          </div>
+          
+          <div class="entrance registr" id="registr">
+            <h5 class="entrance__title">
+              Регистрация
+            </h5>
+            <p class="registr__text">
+              Для регистрации, укажите свой адрес электронной почты на который придет временный пароль для входа в портал.
+            </p>
+            <form class="entrance__form">
+              <input class="entrance-input" type="text" placeholder="E-mail">
+              <a class="registr__link" href="#">Не получил письмо</a>
+              <button class="entrance__btn" type="submit">Отправить</button>
+            </form>
+          </div>
       </header>
 
       <section class="top">
@@ -748,7 +776,7 @@
               </div>
             </div>
             <div class="comments__photo">
-              <a href="#">
+              <a class="popup-youtube" rel="nofollow" href="https://www.youtube.com/watch?v=8Z_IxW8UZfc">
                 <img src="images/comment-1.jpg" alt="">
               </a>
             </div>
@@ -784,7 +812,7 @@
               </div>
             </div>
             <div class="comments__photo">
-              <a href="#">
+              <a class="image-popap" href="images/popap-image.jpg">
                 <img src="images/comment-4.jpg" alt="">
               </a>
             </div>
@@ -823,7 +851,7 @@
               </div>
             </div>
             <div class="comments__photo">
-              <a href="#">
+              <a class="image-popap" href="images/popap-image.jpg">
                 <img src="" alt="">
               </a>
             </div>
@@ -899,7 +927,7 @@
               </div>
             </div>
             <div class="comments__photo">
-              <a href="#">
+              <a class="image-popap" href="images/popap-image.jpg">
                 <img src="images/comment-3.jpg" alt="">
               </a>
             </div>
@@ -935,7 +963,7 @@
               </div>
             </div>
             <div class="comments__photo">
-              <a href="#">
+              <a class="image-popap" href="images/popap-image.jpg">
                 <img src="images/comment-4.jpg" alt="">
               </a>
             </div>
@@ -1092,7 +1120,7 @@
                 </div>
               </div>
               <div class="comments__photo">
-                <a href="#">
+                <a class="popup-youtube" rel="nofollow" href="https://www.youtube.com/watch?v=8Z_IxW8UZfc">
                   <img src="images/comment-1.jpg" alt="">
                 </a>
               </div>
@@ -1128,7 +1156,7 @@
                 </div>
               </div>
               <div class="comments__photo">
-                <a href="#">
+                <a class="image-popap" href="images/popap-image.jpg">
                   <img src="images/comment-4.jpg" alt="">
                 </a>
               </div>
@@ -1170,7 +1198,7 @@
                 </div>
               </div>
               <div class="comments__photo">
-                <a href="#">
+                <a class="popup-youtube" rel="nofollow" href="https://www.youtube.com/watch?v=8Z_IxW8UZfc">
                   <img src="images/comment-1.jpg" alt="">
                 </a>
               </div>
@@ -1206,7 +1234,7 @@
                 </div>
               </div>
               <div class="comments__photo">
-                <a href="#">
+                <a class="image-popap" href="images/popap-image.jpg">
                   <img src="images/comment-4.jpg" alt="">
                 </a>
               </div>
@@ -1249,7 +1277,7 @@
                 </div>
               </div>
               <div class="comments__photo">
-                <a href="#">
+                <a class="popup-youtube" rel="nofollow" href="https://www.youtube.com/watch?v=8Z_IxW8UZfc">
                   <img src="images/comment-1.jpg" alt="">
                 </a>
               </div>
@@ -1285,7 +1313,7 @@
                 </div>
               </div>
               <div class="comments__photo">
-                <a href="#">
+                <a class="image-popap" href="images/popap-image.jpg">
                   <img src="images/comment-4.jpg" alt="">
                 </a>
               </div>
