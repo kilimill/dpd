@@ -861,6 +861,7 @@ button {
   color: #DC0032;
   outline: none;
   right: 0;
+  top: 0;
   position: absolute;
 }
 
