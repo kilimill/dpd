@@ -749,7 +749,9 @@ button {
   left: 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  height: 1118px;
+  width: 100%;
 }
 
 .detalis__bg-1 {
