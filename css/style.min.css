@@ -848,6 +848,34 @@ button {
   margin: 0 auto;
 }
 
+.comments__head {
+  position: relative;
+}
+
+.comments__add {
+  width: 223px;
+  height: 54px;
+  border: 2px solid #DC0032;
+  background-color: #fff;
+  line-height: 32px;
+  color: #DC0032;
+  outline: none;
+  right: 0;
+  position: absolute;
+}
+
+.comments__add span {
+  position: relative;
+  padding-left: 33px;
+}
+
+.comments__add span::before {
+  content: url("../images/plus.svg");
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
 .comments__inner {
   margin-top: 51px;
 }
