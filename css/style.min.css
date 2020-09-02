@@ -216,11 +216,17 @@ button {
 }
 
 .top::before {
-  content: url("../images/artist-bg.png");
+  content: '';
+  width: 725px;
+  height: 1003px;
   position: absolute;
   right: 0;
   z-index: -1;
   top: 20px;
+  background-image: url("../images/artist-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .top__text-inner {
@@ -894,6 +900,9 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .comments__item-fixed {
@@ -958,7 +967,7 @@ button {
 }
 
 .comments__text {
-  width: 836px;
+  max-width: 836px;
   line-height: 24px;
   color: #414042;
 }
@@ -1065,6 +1074,14 @@ button {
 .comments__photo {
   padding-top: 6px;
   margin-left: 23px;
+}
+
+.comments__photo img {
+  width: 176px;
+  height: 169px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .comments__link-more {
@@ -1336,4 +1353,174 @@ button {
   font-size: 12px;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 1366px) {
+  .top::before {
+    width: 617px;
+    height: 854px;
+    top: 15%;
+  }
+  .participant {
+    margin-right: 227px;
+  }
+  .chart-bg {
+    top: -13%;
+    width: 362px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header__menu {
+    margin-left: 35px;
+  }
+  .menu__list-item + .menu__list-item {
+    margin-left: 27px;
+  }
+  .top__text-subtext {
+    font-size: 31px;
+    max-width: 182px;
+    margin-bottom: 30px;
+  }
+  .top__text {
+    max-width: 729px;
+    margin-top: 30px;
+  }
+  .top__dots {
+    margin-left: 50px;
+  }
+  .top__title {
+    font-size: 80px;
+    margin-top: 0;
+  }
+  .top__title span {
+    font-size: 71px;
+  }
+  .top__links {
+    margin-top: 39px;
+  }
+  .top::before {
+    width: 460px;
+    height: 638px;
+    top: 19%;
+  }
+  .participant {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 152px;
+    height: 197px;
+  }
+  .participant span {
+    font-size: 20px;
+    padding: 0;
+  }
+  .about__text {
+    margin-left: 40px;
+    font-size: 24px;
+  }
+  .about__block {
+    max-width: 560px;
+    height: 265px;
+    padding: 63px 70px 85px 87px;
+  }
+  .about__game-text {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .detalis__img-left {
+    top: 111px;
+    width: 410px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .details__top-img img {
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .details__box {
+    max-width: 560px;
+  }
+  .details__text {
+    font-size: 22px;
+    line-height: 31px;
+  }
+  .detalis__img-right {
+    top: -26%;
+    width: 310px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .details__middle-inner {
+    margin-top: 134px;
+  }
+  .details__block {
+    width: 413px;
+    height: 277px;
+  }
+  .details__block-text {
+    font-size: 21px;
+  }
+  .details__block-text {
+    font-size: 21px;
+  }
+  .details__bottom-text {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  .details__bottom-text {
+    margin-right: 7%;
+  }
+  .tasks__title {
+    padding-top: 178px;
+  }
+  .about__slider {
+    padding: 36px 38px 30px 38px;
+  }
+  .slider__link {
+    margin-top: 15px;
+  }
+  .slider__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .comments__item {
+    padding-left: 33px;
+  }
+  .comments__photo img {
+    width: 132px;
+    height: 125px;
+  }
+  .comments__photo {
+    padding-top: 15px;
+  }
+  .footer__top-col:first-child {
+    width: 190px;
+  }
+  .footer__top-col {
+    width: 231px;
+  }
+  .chart__line + .chart__line {
+    padding-left: 50px;
+  }
+  .chart__lines {
+    padding-left: 20px;
+  }
+  .chart-bg {
+    width: 278px;
+    top: -7%;
+  }
+  .chart__title {
+    font-size: 85px;
+  }
+  .new-work {
+    left: 44%;
+  }
+  .subtext-blv {
+    max-width: 100px;
+  }
 }
