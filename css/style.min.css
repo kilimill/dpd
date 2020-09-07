@@ -1608,7 +1608,7 @@ button {
     margin-right: 7%;
   }
   .tasks__title {
-    padding-top: 178px;
+    padding-top: 139px;
   }
   .detalis__bg-1, .details__bg-2, .tasks-bg {
     width: auto;
@@ -1657,5 +1657,8 @@ button {
   }
   .subtext-blv {
     max-width: 100px;
+  }
+  .tasks {
+    margin-top: 30px;
   }
 }
