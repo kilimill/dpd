@@ -1506,6 +1506,9 @@ button {
   .header__menu {
     margin-left: 35px;
   }
+  .header__inner{
+    padding: 0 15px;
+  }
   .menu__list-item + .menu__list-item {
     margin-left: 27px;
   }
