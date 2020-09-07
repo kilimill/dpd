@@ -1610,6 +1610,9 @@ button {
   .tasks__title {
     padding-top: 178px;
   }
+  .detalis__bg-1, .details__bg-2, .tasks-bg {
+    width: auto;
+  }
   .about__slider {
     padding: 36px 38px 30px 38px;
   }
